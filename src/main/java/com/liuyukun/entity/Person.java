@@ -34,6 +34,12 @@ public class Person {
         this.likes = likes;
     }
 
+    public Person(String name, Integer age, String sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+    }
+
     public String getName() {
         return name;
     }
